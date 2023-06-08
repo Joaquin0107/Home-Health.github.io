@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #ceecec;
+    padding: 40px;
+}
+
+.logo{
+    width: 88px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+header nav{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Sunflower', sans-serif;
+    color: #000;
+    cursor: pointer;
+}
+
+.element{
+    position: relative;
+    display: inline-flexbox;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+    padding-left: 90px;
+}
+
+header a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.login{
+    width: 65px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.contenido2{
+    background-color: #DCEEF2;
+    padding: 310px;
+}
+
+.titulo2{
+    position: absolute;
+    left: 650px;
+    width: 240px;
+    height: 70px;
+    top: 150px;
+    font-family: 'Bree Serif', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    text-align: center;
+    background-color: #f2f2f2;
+    line-height: 70px;
+    border-radius: 20px;
+}
+
+.calendario{
+    position: absolute;
+    padding: 20px;
+    width: 256px;
+    height: 256px;
+    left: 200px;
+    top: 340px;
+    line-height: 80px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.historial{    
+    position: absolute;
+    padding: 20px;
+    width: 287px;
+    height: 256px;
+    left: 614px;
+    top: 340px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.mapa{
+    position: absolute;
+    padding: 20px;
+    width: 256px;
+    height: 256px;
+    left: 1035px;
+    top: 340px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+footer{
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}

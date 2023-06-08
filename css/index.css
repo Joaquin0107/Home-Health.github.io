@@ -1,0 +1,661 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #ceecec;
+    padding: 40px;
+}
+
+.logo{
+    width: 88px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+header nav{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Sunflower', sans-serif;
+    color: #000;
+    cursor: pointer;
+}
+
+.element{
+    display: inline-flexbox;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+    padding-left: 106px;
+}
+
+header a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.login{
+    width: 65px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.contenido1{
+    width: 1519px;
+    height: 780px;
+}
+
+.titulo{
+    position: absolute;
+    width: 435px;
+    height: 66px;
+    left: 75px;
+    top: 270px;
+    font-family: 'Bree Serif', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.texto{
+    position: absolute;
+    width: 417px;
+    height: 112px;
+    left: 82px;
+    top: 336px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.boton1{
+    position: absolute;
+    font-family: 'Bree Serif', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    width: 293px;
+    height: 62px;
+    left: 144px;
+    top: 635px;
+    background: #66CEF3;
+    border-radius: 20px;
+}
+
+.boton2{
+    position: absolute;
+    font-family: 'Bree Serif', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    width: 293px;
+    height: 62px;
+    left: 144px;
+    top: 725px;
+    background: #66CEF3;
+    border-radius: 20px;
+}
+
+.contenido2{
+    background-color: #DCEEF2;
+    padding: 320px;
+}
+
+.titulo2{
+    position: absolute;
+    left: 650px;
+    width: 240px;
+    height: 70px;
+    top: 920px;
+    font-family: 'Bree Serif', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    text-align: center;
+    background-color: #f2f2f2;
+    line-height: 70px;
+    border-radius: 20px;
+}
+
+.calendario{
+    position: absolute;
+    padding: 20px;
+    width: 256px;
+    height: 256px;
+    left: 200px;
+    top: 1040px;
+    line-height: 80px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.reservar{
+    position: absolute;
+    padding: 20px;
+    width: 287px;
+    height: 70px;
+    left: 189px;
+    top: 1342px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+.historial{    
+    position: absolute;
+    padding: 20px;
+    width: 287px;
+    height: 256px;
+    left: 614px;
+    top: 1040px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.hoja{
+    position: absolute;
+    padding: 20px;
+    width: 287px;
+    height: 51px;
+    left: 617px;
+    top: 1345px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+.mapa{
+    position: absolute;
+    padding: 20px;
+    width: 256px;
+    height: 256px;
+    left: 1035px;
+    top: 1040px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.consulta{
+    position: absolute;
+    padding: 20px;
+    width: 275px;
+    height: 65px;
+    left: 1024px;
+    top: 1335px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+.contenido3{
+    background-color: #DAE8F3;
+    padding: 350px;
+}
+
+.titulo3{
+    position: absolute;
+    width: 293px;
+    height: 45px;
+    left: 620px;
+    top: 1540px;
+    font-family: 'Bree Serif',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+.med{
+    position: absolute;
+    width: 449px;
+    height: 498px;
+    left: 185px;
+    top: 1650px;
+}
+
+.subtitulo{
+    position: absolute;
+    width: 572px;
+    height: 66px;
+    left: 745px;
+    top: 1703px;
+    font-family: 'Bree Serif', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 35px;
+    text-align: justify;
+    color: #032B45;
+}
+
+.texto2{
+    position: absolute;
+    width: 566px;
+    height: 342px;
+    left: 742px;
+    top: 1791px;
+    font-family: 'Fira Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: justify;
+    color: #010925;
+}
+
+.contenido4{
+    background: #DFF2EF;
+    padding: 380px;
+}
+
+.titulo4{
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    left: 620px;
+    top: 2252px;
+    font-family: 'Bree Serif', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 70px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+.marca{
+    position: absolute;
+    width: 353px;
+    height: 331px;
+    left: 156px;
+    top: 2350px;
+}
+
+.texto3{
+    position: absolute;
+    width: 353px;
+    height: 206px;
+    left: 156px;
+    top: 2690px;
+    font-family: 'Fira Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: justify;
+    color: #010925;
+}
+
+.doc2{
+    position: absolute;
+    width: 420px;
+    height: 448px;
+    left: 520px;
+    top: 2490px;
+}
+
+.prototipo{
+    position: absolute;
+    width: 232px;
+    height: 495px;
+    left: 1059px;
+    top: 2390px;
+}
+
+.app{
+    position: absolute;
+    font-family: 'Bree Serif', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    width: 293px;
+    height: 62px;
+    left: 1034px;
+    top: 2900px;
+    background: #66CEF3;
+    border-radius: 20px;
+}
+
+.contenido5{
+    background-color: #DAE8F3;
+    padding: 390px; 
+}
+
+.titulo5{
+    position: absolute;
+    width: 235px;
+    height: 85px;
+    left: 620px;
+    top: 2998px;
+    font-family: 'Bree Serif', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 80px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+.email{
+    position: absolute;
+    box-sizing: border-box;
+    width: 178px;
+    height: 177px;
+    left: 245px;
+    top: 3205px;
+}
+
+.texto4{
+    position: absolute;
+    padding: 20px;
+    width: 411px;
+    height: 74px;
+    left: 140px;
+    top: 3370px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 70px;
+    text-align: center;
+    color: #010925;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+.doc3{    
+    position: absolute;
+    width: 356px;
+    height: 420px;
+    left: 560px;
+    top: 3313px;
+}
+
+.wsp{
+    position: absolute;
+    width: 169px;
+    height: 172px;
+    left: 1041px;
+    top: 3205px;
+}
+
+.texto5{
+    position: absolute;
+    width: 353px;
+    height: 74px;
+    left: 960px;
+    top: 3360px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 70px;
+    text-align: center;
+    color: #010925;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+.texto6{
+    position: absolute;
+    width: 353px;
+    height: 74px;
+    left: 960px;
+    top: 3410px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 70px;
+    text-align: center;
+    color: #010925;
+    background-color: #f2f2f2;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.contenido6{
+    background-color: #DFF2EF;
+    padding: 390px;
+}
+
+.lg{
+    position: absolute;
+    width: 250px;
+    height: 229px;
+    left: 600px;
+    top: 3800px;
+}
+
+.comunidad{
+    position: absolute;
+    padding: 40px;
+    width: 1120px;
+    height: 370px;
+    left: 166px;
+    top: 4005px;
+    font-family: 'Bree Serif',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: justify;
+    background: #C4DAF3;
+    border-radius: 20px;
+}
+
+.texto7{
+    position: absolute;
+    width: 310px;
+    height: 60px;
+    left: 190px;
+    top: 4120px;
+    font-family: 'Brawler', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.texto8{
+    position: absolute;
+    width: 310px;
+    height: 60px;
+    left: 190px;
+    top: 4150px;
+    font-family: 'Brawler', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.texto9{
+    position: absolute;
+    width: 310px;
+    height: 60px;
+    left: 190px;
+    top: 4180px;
+    font-family: 'Brawler', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.terminos{
+    position: absolute;
+    width: 182px;
+    height: 60px;
+    left: 206px;
+    top: 4210px;
+    font-family: 'Bree Serif',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.texto10{
+    position: absolute;
+    width: 383px;
+    height: 156px;
+    left: 206px;
+    top: 4270px;
+    font-family: 'Brawler',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.doc4{
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    left: 630px;
+    top: 4120px;
+}
+
+.publicidad{
+    position: absolute;
+    width: 206px;
+    height: 60px;
+    left: 970px;
+    top: 4035px;
+    font-family: 'Bree Serif',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.texto11{
+    position: absolute;
+    width: 310px;
+    height: 60px;
+    left: 950px;
+    top: 4120px;
+    font-family: 'Brawler',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.texto12{
+    position: absolute;
+    width: 310px;
+    height: 60px;
+    left: 950px;
+    top: 4150px;
+    font-family: 'Brawler',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.texto13{
+    position: absolute;
+    width: 310px;
+    height: 60px;
+    left: 950px;
+    top: 4180px;
+    font-family: 'Brawler',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.redes{
+    position: absolute;
+    width: 310px;
+    height: 40px;
+    left: 920px;
+    top: 4210px;
+    font-family: 'Bree Serif',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.linkedin{
+    position: absolute;
+    width: 74px;
+    height: 71px;
+    left: 970px;
+    top: 4310px;
+}
+
+.instagram{
+    position: absolute;
+    width: 66px;
+    height: 67px;
+    left: 1050px;
+    top: 4312px;
+}
+
+.facebook{
+    position: absolute;
+    width: 75px;
+    height: 73px;
+    left: 1120px;
+    top: 4310px;
+}
+
+.whatsapp{
+    position: absolute;
+    width: 82px;
+    height: 82px;
+    left: 1200px;
+    top: 4305px;
+}
+
+footer{
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}

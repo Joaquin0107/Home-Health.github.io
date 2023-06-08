@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #ceecec;
+    padding: 40px;
+}
+
+.logo{
+    width: 88px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+header nav{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Sunflower', sans-serif;
+    color: #000;
+    cursor: pointer;
+}
+
+.element{
+    position: relative;
+    display: inline-flexbox;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+    padding-left: 90px;
+}
+
+header a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.login{
+    width: 65px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.contenido3{
+    background-color: #DAE8F3;
+    padding: 350px;
+}
+
+.titulo3{
+    position: absolute;
+    width: 293px;
+    height: 45px;
+    left: 620px;
+    top: 150px;
+    font-family: 'Bree Serif',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+.med{
+    position: absolute;
+    width: 449px;
+    height: 498px;
+    left: 185px;
+    top: 275px;
+}
+
+.subtitulo{
+    position: absolute;
+    width: 572px;
+    height: 66px;
+    left: 745px;
+    top: 273px;
+    font-family: 'Bree Serif', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 35px;
+    text-align: justify;
+    color: #032B45;
+}
+
+.texto2{
+    position: absolute;
+    width: 566px;
+    height: 342px;
+    left: 742px;
+    top: 361px;
+    font-family: 'Fira Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: justify;
+    color: #010925;
+}
+
+footer{
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}

@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #ceecec;
+    padding: 40px;
+}
+
+.logo{
+    width: 88px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+header nav{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Sunflower', sans-serif;
+    color: #000;
+    cursor: pointer;
+}
+
+.element{
+    position: relative;
+    display: inline-flexbox;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+    padding-left: 90px;
+}
+
+header a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.login{
+    width: 65px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.contenido1{
+    width: 1519px;
+    height: 780px;
+}
+
+.titulo{
+    position: absolute;
+    width: 435px;
+    height: 66px;
+    left: 75px;
+    top: 270px;
+    font-family: 'Bree Serif', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.texto{
+    position: absolute;
+    width: 417px;
+    height: 112px;
+    left: 82px;
+    top: 336px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+footer{
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
