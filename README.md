@@ -2,12 +2,12 @@
 HomeHealth busca ser una aplicación que brinde una atención médica a domicilio personalizada y siguiendo los criterios del paciente, buscamos ante todo que el usuario pueda elegir tanto al profesional con quien se atenderá y este lo más cómodo y satisfecho posible al recibir su atención, además de esto también buscamos que agendar la cita sea lo más rápido y claro posible para que de este modo el usuario tenga su atención lo más pronto posible.
 
 Autores:
-- Crisóstomo Oré, Anthony Thomas    U201919445
-- Huayllasco López, Joaquín Emilio  U202112613
-- Morales Silverio, Angie Magdiel		 U202118704
-- Oliva Cabanillas, Chiara Kelly		 U202112430
-- Paiva Quispe, Josue Gonzalo				 U202119095
-- Rivas Sarango, David Alejandro		 U20191e831
+- Crisóstomo Oré, Anthony Thomas------U201919445
+- Huayllasco López, Joaquín Emilio----U202112613
+- Morales Silverio, Angie Magdiel-----U202118704
+- Oliva Cabanillas, Chiara Kelly------U202112430
+- Paiva Quispe, Josue Gonzalo---------U202119095
+- Rivas Sarango, David Alejandro------U20191e831
 
 Segmentos Objetivos:
 
