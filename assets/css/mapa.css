@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: #ceecec;
+    padding: 30px;
+}
+
+.logo{
+    width: 88px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+h1{
+    position: relative;
+    width: 500px;
+    height: 5px;
+    left: 584px;
+    top: -20px;
+    font-family: 'Bree Serif',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: justify;
+}
+
+main{
+    padding: 300px;
+}
+
+iframe{
+    position: absolute;
+    width: 890px;
+    height: 554px;
+    left: 310px;
+    top: 148px;
+    border-radius: 20px;
+}
+
+footer{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}

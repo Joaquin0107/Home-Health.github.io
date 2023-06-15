@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Bree serif',serif;
+}
+body{
+    background-color: #DCEEF2;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 38px;
+}
+h4{
+    font-size: 24px;
+}
+/*NAVEGACION*/
+nav{
+    font-size:32px ;
+    background:#CEECEC;
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    float: right;
+    align-items: center;
+    margin-right: 25px;
+}
+nav.navegacion img{
+    vertical-align: middle;
+    width: 75px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 25px;
+}
+nav ul li a{
+    color:black;
+    font-size: 18px;
+    padding: 7px 13xp;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+li a:hover{
+    background:white;
+    transition: .5s;
+}
+
+/*BANNER*/
+.containerB{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.boxBcontainer{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.txtBanner123{
+    margin-bottom: 50px;
+}
+.buttons2{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttons2 button {
+    font-size: 24px;
+    background-color: #66CEF3; 
+    color: black; 
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+img#imgMain{
+    width: 100%;
+}
+
+/*NOSOTROS*/
+
+.AboutUs{
+    background-color: #DAE8F3;
+    text-align: center;
+}
+
+  .containerUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container-imagetxtUs {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .container-imagetxtUs img {
+    margin-right: 20px;
+  }
+  .container-titleUs{
+    margin-bottom: 20px;
+  }
+  .textUs {
+    text-align: left;
+  }
+  
+/*CONTACTO*/
+.Contacto{
+    background-color: #DAE8F3;
+    text-align: center;
+}
+.Contacto-title{
+    margin-bottom: 20px;
+}
+.Botones{
+    display: flex;
+  flex-wrap: space-between;
+  justify-content: center;
+  margin-top: 20px;
+}
+.Email,
+.Wsp {
+  flex-basis: 45%;
+}
+.wspimage,.emailimage{
+    width: 350px;
+}
+/*FOOTER*/
+footer{
+    background-color: #F2F2F2;
+    text-align: center;
+}
+.Derechos{
+    padding-top: 10px;
+}
