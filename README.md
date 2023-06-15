@@ -23,3 +23,13 @@ Segmentos Objetivos:
 - Personas ocupadas: Este segmento incluiría a personas que tienen agendas ocupadas y no pueden permitirse el tiempo de desplazamiento a un centro médico.
 
 - Personas que valoran la calidad del servicio médico: Este segmento incluiría a personas dispuestas a pagar más por servicios médicos de alta calidad, proporcionados por profesionales médicos altamente capacitados y experimentados en su campo de especialización.
+
+Características Ofrecidas:
+
+- Pacientes: Se le otorgan 3 tipos de servicios.
+* En el primero, el paciente puede reservar citas ahí le aparecerá la información de algunos doctores, además al agendar una cita con alguno de ellos, se dirigirá a la opción de un calendario para agendar su fecha y al finalizar le aparecerá los métodos de pagos.
+* En el segundo, el paciente podrá guardar su historial médico para que este le llegue al médico que le va a atender.
+* En el tercero, el paciente tiene la opción de ver en un mapa donde se encuentra el doctor más cercano a su vivienda.
+
+- Médicos: Se le otorga 1 tipo de servicios, además de hacer promoción a el/ella en nuestra página web.
+* El servicio para los médicos es el poder observar las citas pendientes que previamente han sido agendadas por los pacientes.
