@@ -24,16 +24,16 @@
                 <div class="login1">
                     <div class="log">
                         <p>Correo electronico</p>
-                        <input  type="text" class="cuadrotexto" placeholder="ejemplo123@gmail.com" required>
+                        <input  type="text"  id="email" class="cuadrotexto" placeholder="ejemplo123@gmail.com" required>
                     </div>
                     <div class="log">
                         <p>Contraseña</p>
-                        <input  type="password" class="pas" placeholder="123456" required>
+                        <input  type="password" id="password" class="pas" placeholder="123456" required>
                     </div>
                 </div>
                 <div>
-                    <a href="RegistroPaciente.html" class="btnBanner">Registrar</a>
-                    <a href="HomePaciente.html" class="btnBanner">Ingresar</a>
+                    <a href="RegistroPaciente.html" id="btn-register" class="btnBanner" onclick="return validarCredenciales()">Registrar</a>
+                    <a href="HomePaciente.html" id="btn-login" class="btnBanner" onclick="return validarCredenciales()">Ingresar</a>
                 </div>
             </div>
         </section>

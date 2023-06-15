@@ -29,15 +29,15 @@
                     </div>
                     <div class="log">
                         <p>Correo electronico</p>
-                        <input  type="password" class="pas" placeholder="ejemplo123@gmail.com" required>
+                        <input  type="password" id="email" class="pas" placeholder="ejemplo123@gmail.com" required>
                     </div>
                     <div class="log">
                         <p>Contraseña</p>
-                        <input  type="password" class="pas" placeholder="123456" required>
+                        <input  type="password" id="password" class="pas" placeholder="123456" required>
                     </div>
                 </div>
                 <div>
-                    <a href="LoginMedico.html" class="btnBanner">Guardar</a>
+                    <a href="LoginMedico.html"  id="btn-login" class="btnBanner" onclick="return validarCredenciales()">Guardar</a>
                 </div>
             </div>
         </section>
