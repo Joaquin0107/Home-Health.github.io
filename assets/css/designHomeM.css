@@ -19,40 +19,70 @@ h4{
     font-size: 24px;
 }
 /*NAVEGACION*/
-nav{
-    font-size:32px ;
-    background:#CEECEC;
-    height: 80px;
+img{
     width: 100%;
 }
-nav ul{
+.logoNav {
+    width: 40px;
     display: flex;
-    float: right;
     align-items: center;
-    margin-right: 25px;
 }
-nav.navegacion img{
-    vertical-align: middle;
-    width: 75px;
+header {
+    font-size:32px;
+    background:#CEECEC;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    top: 0;
+    z-index: 1000;
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
 }
-nav ul li{
+header ul {
+    display: flex;
+}
+header ul a img {
+    width: 40px;
+}
+header ul li{
     display: inline-block;
     margin: 0 25px;
 }
-nav ul li a{
+.navegacion a{
+    width: 50px;
+}
+header ul li a{
+    font-size: 1rem;
+    padding: 11px 20px;
     color:black;
     font-size: 18px;
     padding: 7px 13xp;
     border-radius: 3px;
     text-transform: capitalize;
 }
-li a:hover{
-    background:white;
-    transition: .5s;
-}
-
 /*BANNER*/
-.containerB{
+section.banner{
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../images/doctor2prueba1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.boxBcontainer{
+    max-width: 40rem;
+}
+.boxBcontainer h2{
+    font-size: 4rem;
+}
+.boxBcontainer p{
+    font-size: 1rem;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+/*.banner{
     position: relative;
     display: inline-block;
     width: 100%;
@@ -67,24 +97,8 @@ li a:hover{
 }
 .txtBanner123{
     margin-bottom: 50px;
-}
-.buttons2{
-    display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.buttons2 button {
-    font-size: 24px;
-    background-color: #66CEF3; 
-    color: black; 
-    outline: none;
-    border: none;
-    border-radius: 15px;
-    margin-bottom: 10px;
-  }
-img#imgMain{
-    width: 100%;
-}
+}*/
+
 
 /*NOSOTROS*/
 
@@ -101,6 +115,7 @@ img#imgMain{
   
   .container-imagetxtUs {
     display: flex;
+    
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -120,22 +135,27 @@ img#imgMain{
 .Contacto{
     background-color: #DAE8F3;
     text-align: center;
+    padding: 20px;
 }
 .Contacto-title{
     margin-bottom: 20px;
 }
 .Botones{
     display: flex;
-  flex-wrap: space-between;
-  justify-content: center;
-  margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
 }
+
 .Email,
 .Wsp {
-  flex-basis: 45%;
+    flex-basis: 100%;
+    max-width: 350px;
+    margin-bottom: 20px;
 }
 .wspimage,.emailimage{
     width: 350px;
+    height: auto;
 }
 /*FOOTER*/
 footer{
