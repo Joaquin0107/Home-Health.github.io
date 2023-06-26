@@ -19,7 +19,7 @@ h4{
     font-size: 24px;
 }
 /*NAVEGACION*/
-img{
+.logN{
     width: 100%;
 }
 .logoNav {
@@ -143,7 +143,7 @@ section.banner{
 .Botones{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
 }
 
