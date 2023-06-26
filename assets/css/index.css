@@ -7,11 +7,6 @@ header{
     padding: 40px;
 }
 
-/*header .abajo{
-    background: #fff;
-    padding: 15px 20px;width: 100%;
-}*/
-
 .logo{
     width: 88px;
     position: absolute;
@@ -49,7 +44,7 @@ header a{
 }
 
 .contenido1{
-    width: 100%;
+    width: 1518px;
     height: 780px;
 }
 
