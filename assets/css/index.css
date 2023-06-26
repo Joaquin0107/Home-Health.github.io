@@ -1,11 +1,6 @@
 body{
-<<<<<<< HEAD
     margin: 0;
     padding: 0;
-=======
-    margin: 0px;
-    padding: 0px;
->>>>>>> 8ef56c0d4e5a15b9323758336e707a53ea0cb842
 }
 
 header{
@@ -119,7 +114,6 @@ header a{
  /*SERVICIOS*/
 .contenido2{
     background-color: #DCEEF2;
-<<<<<<< HEAD
     width: 100%;
     text-align: center;
     /*padding: 320px;*/
@@ -132,9 +126,6 @@ header a{
 .box1,.box2,.box3{
     margin: 10px;
     padding: 20px;
-=======
-    padding: 320px;
->>>>>>> 8ef56c0d4e5a15b9323758336e707a53ea0cb842
 }
 .titulo2{
     /*position: absolute;*/
@@ -241,7 +232,6 @@ header a{
 /*NOSOTROS*/
 .contenido3{
     background-color: #DAE8F3;
-<<<<<<< HEAD
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -257,9 +247,6 @@ header a{
 .txtNos{
     margin-right: 20px;
     margin-left: 50px;
-=======
-    padding: 350px;
->>>>>>> 8ef56c0d4e5a15b9323758336e707a53ea0cb842
 }
 .titulo3{
     width: 293px;
@@ -308,7 +295,6 @@ header a{
 
 .contenido4 {
     background: #DFF2EF;
-<<<<<<< HEAD
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -326,13 +312,6 @@ header a{
   }
   
   .titulo4 {
-=======
-    padding: 380px;
-}
-
-.titulo4{
-    position: absolute;
->>>>>>> 8ef56c0d4e5a15b9323758336e707a53ea0cb842
     width: 300px;
     height: 70px;
     font-family: 'Bree Serif', sans-serif;
@@ -389,15 +368,11 @@ header a{
 /*CONTACTO*/
 .contenido5{
     background-color: #DAE8F3;
-<<<<<<< HEAD
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-=======
-    padding: 390px; 
->>>>>>> 8ef56c0d4e5a15b9323758336e707a53ea0cb842
 }
 
 .titulo5{
@@ -490,16 +465,12 @@ header a{
 /*INFO EXTRA*/
 .contenido6{
     background-color: #DFF2EF;
-<<<<<<< HEAD
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-=======
-    padding: 390px;
->>>>>>> 8ef56c0d4e5a15b9323758336e707a53ea0cb842
 }
 
 .lg{
