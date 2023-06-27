@@ -46,12 +46,8 @@ header a{
 /*BANNER*/
 
 .contenido1{
-   /*width: 1518px;
-    height: 780px;*/
-    min-height: 80vh;
-    background: url(../images/doc.svg);
-    background-size: cover;
-    background-position: center;
+    width: 1518px;
+    height: 780px;
 }
 
 .titulo{
@@ -116,12 +112,12 @@ header a{
     background-color: #DCEEF2;
     width: 100%;
     text-align: center;
-    /*padding: 320px;*/
+    padding: 320px;
 }
 .BOXES{
     display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .box1,.box2,.box3{
     margin: 10px;
@@ -262,14 +258,16 @@ header a{
 }
 
 .med{
+    position: absolute;
     width: 449px;
     height: 498px;
+    left: 185px;
+    top: 1650px;
 }
 
 .subtitulo{
     width: 572px;
     height: 66px;
- 
     font-family: 'Bree Serif', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -281,8 +279,7 @@ header a{
 
 .texto2{
     width: 566px;
-    height: 342px;
-    
+    height: 342px;    
     font-family: 'Fira Sans',sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -322,36 +319,48 @@ header a{
     background-color: #f2f2f2;
     border-radius: 20px;
   }
-  
-  .marca {
+
+  .marca{
+    position: absolute;
     width: 353px;
     height: 331px;
-    margin-bottom: 20px;
-  }
+    left: 156px;
+    top: 2350px;
+    }
   
-  .texto3 {
+  .texto3{
+    position: absolute;
     width: 353px;
     height: 206px;
-    font-family: 'Fira Sans', sans-serif;
+    left: 156px;
+    top: 2690px;
+    font-family: 'Fira Sans',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 35px;
     text-align: justify;
     color: #010925;
-  }
+    }
   
-  .doc2 {
+ .doc2{
+    position: absolute;
     width: 420px;
     height: 448px;
-  }
+    left: 520px;
+    top: 2490px;
+    }
   
-  .prototipo {
+  .prototipo{
+    position: absolute;
     width: 232px;
     height: 495px;
-  }
+    left: 1059px;
+    top: 2390px;
+    }
   
-  .app {
+  .app{
+    position: absolute;
     font-family: 'Bree Serif', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -359,11 +368,11 @@ header a{
     line-height: 35px;
     width: 293px;
     height: 62px;
+    left: 1034px;
+    top: 2900px;
     background: #66CEF3;
     border-radius: 20px;
-  }
-  
-  
+    }
 
 /*CONTACTO*/
 .contenido5{
