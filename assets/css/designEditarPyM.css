@@ -106,13 +106,32 @@ nav ul li a{
     font-weight: 300;
     line-height: 20px;   
 }
-
-.btnBanner{
+.btnBanner-V{
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding: 10px 40px;
     margin: 120px;
     position: relative;
     margin-left: 380px;
-    top: 40px;
+    top: 100px;
+    right: -30px;
+    font-family: 'Sunflower',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    background: #66CEF3;
+    border-radius: 22px;
+}
+
+.btnBanner{
+    padding: 10px 40px;
+    margin: 150px;
+    position: relative;
+    margin-left: 380px;
+    top: 50px;
     font-family: 'Sunflower',sans-serif;
     font-style: normal;
     font-weight: 800;

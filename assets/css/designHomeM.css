@@ -19,14 +19,11 @@ h4{
     font-size: 24px;
 }
 /*NAVEGACION*/
-.logN{
+
+.logoNav  img{
     width: 100%;
 }
-.logoNav {
-    width: 40px;
-    display: flex;
-    align-items: center;
-}
+
 header {
     font-size:32px;
     background:#CEECEC;
